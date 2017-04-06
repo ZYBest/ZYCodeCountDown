@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5037AC4D1E962DED0054D72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC4C1E962DED0054D72C /* main.m */; };
+		5037AC501E962DED0054D72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC4F1E962DED0054D72C /* AppDelegate.m */; };
+		5037AC531E962DED0054D72C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC521E962DED0054D72C /* ViewController.m */; };
+		5037AC561E962DED0054D72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037AC541E962DED0054D72C /* Main.storyboard */; };
+		5037AC581E962DED0054D72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5037AC571E962DED0054D72C /* Assets.xcassets */; };
+		5037AC5B1E962DED0054D72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037AC591E962DED0054D72C /* LaunchScreen.storyboard */; };
+		5037AC661E962DED0054D72C /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC651E962DED0054D72C /* ______Tests.m */; };
+		5037AC711E962DED0054D72C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC701E962DED0054D72C /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5037AC621E962DED0054D72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5037AC401E962DED0054D72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5037AC471E962DED0054D72C;
+			remoteInfo = "验证码倒计时";
+		};
+		5037AC6D1E962DED0054D72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5037AC401E962DED0054D72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5037AC471E962DED0054D72C;
+			remoteInfo = "验证码倒计时";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5037AC481E962DED0054D72C /* 验证码倒计时.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "验证码倒计时.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037AC4C1E962DED0054D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5037AC4E1E962DED0054D72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5037AC4F1E962DED0054D72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5037AC511E962DED0054D72C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5037AC521E962DED0054D72C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5037AC551E962DED0054D72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5037AC571E962DED0054D72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5037AC5A1E962DED0054D72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5037AC5C1E962DED0054D72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5037AC611E962DED0054D72C /* 验证码倒计时Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证码倒计时Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037AC651E962DED0054D72C /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		5037AC671E962DED0054D72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5037AC6C1E962DED0054D72C /* 验证码倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证码倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5037AC701E962DED0054D72C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		5037AC721E962DED0054D72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5037AC451E962DED0054D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC5E1E962DED0054D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC691E962DED0054D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5037AC3F1E962DED0054D72C = {
+			isa = PBXGroup;
+			children = (
+				5037AC4A1E962DED0054D72C /* 验证码倒计时 */,
+				5037AC641E962DED0054D72C /* 验证码倒计时Tests */,
+				5037AC6F1E962DED0054D72C /* 验证码倒计时UITests */,
+				5037AC491E962DED0054D72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5037AC491E962DED0054D72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5037AC481E962DED0054D72C /* 验证码倒计时.app */,
+				5037AC611E962DED0054D72C /* 验证码倒计时Tests.xctest */,
+				5037AC6C1E962DED0054D72C /* 验证码倒计时UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5037AC4A1E962DED0054D72C /* 验证码倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				5037AC4E1E962DED0054D72C /* AppDelegate.h */,
+				5037AC4F1E962DED0054D72C /* AppDelegate.m */,
+				5037AC511E962DED0054D72C /* ViewController.h */,
+				5037AC521E962DED0054D72C /* ViewController.m */,
+				5037AC541E962DED0054D72C /* Main.storyboard */,
+				5037AC571E962DED0054D72C /* Assets.xcassets */,
+				5037AC591E962DED0054D72C /* LaunchScreen.storyboard */,
+				5037AC5C1E962DED0054D72C /* Info.plist */,
+				5037AC4B1E962DED0054D72C /* Supporting Files */,
+			);
+			path = "验证码倒计时";
+			sourceTree = "<group>";
+		};
+		5037AC4B1E962DED0054D72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5037AC4C1E962DED0054D72C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5037AC641E962DED0054D72C /* 验证码倒计时Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5037AC651E962DED0054D72C /* ______Tests.m */,
+				5037AC671E962DED0054D72C /* Info.plist */,
+			);
+			path = "验证码倒计时Tests";
+			sourceTree = "<group>";
+		};
+		5037AC6F1E962DED0054D72C /* 验证码倒计时UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5037AC701E962DED0054D72C /* ______UITests.m */,
+				5037AC721E962DED0054D72C /* Info.plist */,
+			);
+			path = "验证码倒计时UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5037AC471E962DED0054D72C /* 验证码倒计时 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037AC751E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时" */;
+			buildPhases = (
+				5037AC441E962DED0054D72C /* Sources */,
+				5037AC451E962DED0054D72C /* Frameworks */,
+				5037AC461E962DED0054D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "验证码倒计时";
+			productName = "验证码倒计时";
+			productReference = 5037AC481E962DED0054D72C /* 验证码倒计时.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5037AC601E962DED0054D72C /* 验证码倒计时Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037AC781E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时Tests" */;
+			buildPhases = (
+				5037AC5D1E962DED0054D72C /* Sources */,
+				5037AC5E1E962DED0054D72C /* Frameworks */,
+				5037AC5F1E962DED0054D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5037AC631E962DED0054D72C /* PBXTargetDependency */,
+			);
+			name = "验证码倒计时Tests";
+			productName = "验证码倒计时Tests";
+			productReference = 5037AC611E962DED0054D72C /* 验证码倒计时Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5037AC6B1E962DED0054D72C /* 验证码倒计时UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5037AC7B1E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时UITests" */;
+			buildPhases = (
+				5037AC681E962DED0054D72C /* Sources */,
+				5037AC691E962DED0054D72C /* Frameworks */,
+				5037AC6A1E962DED0054D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5037AC6E1E962DED0054D72C /* PBXTargetDependency */,
+			);
+			name = "验证码倒计时UITests";
+			productName = "验证码倒计时UITests";
+			productReference = 5037AC6C1E962DED0054D72C /* 验证码倒计时UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5037AC401E962DED0054D72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "胡正康";
+				TargetAttributes = {
+					5037AC471E962DED0054D72C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5037AC601E962DED0054D72C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5037AC471E962DED0054D72C;
+					};
+					5037AC6B1E962DED0054D72C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5037AC471E962DED0054D72C;
+					};
+				};
+			};
+			buildConfigurationList = 5037AC431E962DED0054D72C /* Build configuration list for PBXProject "验证码倒计时" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5037AC3F1E962DED0054D72C;
+			productRefGroup = 5037AC491E962DED0054D72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5037AC471E962DED0054D72C /* 验证码倒计时 */,
+				5037AC601E962DED0054D72C /* 验证码倒计时Tests */,
+				5037AC6B1E962DED0054D72C /* 验证码倒计时UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5037AC461E962DED0054D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037AC5B1E962DED0054D72C /* LaunchScreen.storyboard in Resources */,
+				5037AC581E962DED0054D72C /* Assets.xcassets in Resources */,
+				5037AC561E962DED0054D72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC5F1E962DED0054D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC6A1E962DED0054D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5037AC441E962DED0054D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037AC531E962DED0054D72C /* ViewController.m in Sources */,
+				5037AC501E962DED0054D72C /* AppDelegate.m in Sources */,
+				5037AC4D1E962DED0054D72C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC5D1E962DED0054D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037AC661E962DED0054D72C /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037AC681E962DED0054D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5037AC711E962DED0054D72C /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5037AC631E962DED0054D72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5037AC471E962DED0054D72C /* 验证码倒计时 */;
+			targetProxy = 5037AC621E962DED0054D72C /* PBXContainerItemProxy */;
+		};
+		5037AC6E1E962DED0054D72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5037AC471E962DED0054D72C /* 验证码倒计时 */;
+			targetProxy = 5037AC6D1E962DED0054D72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5037AC541E962DED0054D72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5037AC551E962DED0054D72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5037AC591E962DED0054D72C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5037AC5A1E962DED0054D72C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5037AC731E962DED0054D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5037AC741E962DED0054D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5037AC761E962DED0054D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "验证码倒计时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5037AC771E962DED0054D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "验证码倒计时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5037AC791E962DED0054D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "验证码倒计时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/验证码倒计时.app/验证码倒计时";
+			};
+			name = Debug;
+		};
+		5037AC7A1E962DED0054D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "验证码倒计时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/验证码倒计时.app/验证码倒计时";
+			};
+			name = Release;
+		};
+		5037AC7C1E962DED0054D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "验证码倒计时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "验证码倒计时";
+			};
+			name = Debug;
+		};
+		5037AC7D1E962DED0054D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "验证码倒计时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leadbrand.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "验证码倒计时";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5037AC431E962DED0054D72C /* Build configuration list for PBXProject "验证码倒计时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037AC731E962DED0054D72C /* Debug */,
+				5037AC741E962DED0054D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5037AC751E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037AC761E962DED0054D72C /* Debug */,
+				5037AC771E962DED0054D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5037AC781E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037AC791E962DED0054D72C /* Debug */,
+				5037AC7A1E962DED0054D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5037AC7B1E962DED0054D72C /* Build configuration list for PBXNativeTarget "验证码倒计时UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5037AC7C1E962DED0054D72C /* Debug */,
+				5037AC7D1E962DED0054D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5037AC401E962DED0054D72C /* Project object */;
+}
