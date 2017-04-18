@@ -15,6 +15,7 @@
 		5037AC5B1E962DED0054D72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037AC591E962DED0054D72C /* LaunchScreen.storyboard */; };
 		5037AC661E962DED0054D72C /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC651E962DED0054D72C /* ______Tests.m */; };
 		5037AC711E962DED0054D72C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC701E962DED0054D72C /* ______UITests.m */; };
+		5037AC801E96305E0054D72C /* IDCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5037AC7F1E96305E0054D72C /* IDCountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5037AC6C1E962DED0054D72C /* 验证码倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证码倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037AC701E962DED0054D72C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		5037AC721E962DED0054D72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5037AC7E1E96305E0054D72C /* IDCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCountDownButton.h; sourceTree = "<group>"; };
+		5037AC7F1E96305E0054D72C /* IDCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				5037AC4E1E962DED0054D72C /* AppDelegate.h */,
 				5037AC4F1E962DED0054D72C /* AppDelegate.m */,
+				5037AC7E1E96305E0054D72C /* IDCountDownButton.h */,
+				5037AC7F1E96305E0054D72C /* IDCountDownButton.m */,
 				5037AC511E962DED0054D72C /* ViewController.h */,
 				5037AC521E962DED0054D72C /* ViewController.m */,
 				5037AC541E962DED0054D72C /* Main.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5037AC801E96305E0054D72C /* IDCountDownButton.m in Sources */,
 				5037AC531E962DED0054D72C /* ViewController.m in Sources */,
 				5037AC501E962DED0054D72C /* AppDelegate.m in Sources */,
 				5037AC4D1E962DED0054D72C /* main.m in Sources */,
